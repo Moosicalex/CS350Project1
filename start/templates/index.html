@@ -1,9 +1,27 @@
 <!-- CS350Project1/start/index.html -->
-
+<head>
+    <style>
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: #000000;
+    }
+    </style>
+    </head>
 {% extends 'base.html' %}
 
 {% block title %}Start Page{% endblock title %}
 
 {% block content %}
     <h1>Start/Index Page</h1>
+    <a href = "play" > <button class="button button1">my first button</button></a>
+    
+
 {% endblock content %}
